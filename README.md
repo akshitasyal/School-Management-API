@@ -1,20 +1,20 @@
-# 📚 School Management API
+#  School Management API
 
 A backend application built using **Node.js, Express.js, and MySQL** that allows users to add schools and retrieve them sorted by proximity to a given location.
 
 ---
 
-## 🚀 Features
+##  Features
 
-* ➕ Add new schools with location data
-* 📍 Retrieve schools sorted by nearest distance
-* 🌍 Distance calculation using Haversine formula
-* ⚡ RESTful API design
-* 🧠 Clean modular architecture (controllers, routes, utils)
+*  Add new schools with location data
+*  Retrieve schools sorted by nearest distance
+*  Distance calculation using Haversine formula
+*  RESTful API design
+*  Clean modular architecture (controllers, routes, utils)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Backend:** Node.js, Express.js
 * **Database:** MySQL
@@ -23,7 +23,7 @@ A backend application built using **Node.js, Express.js, and MySQL** that allows
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 project-root/
@@ -43,9 +43,9 @@ project-root/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
-### 1️⃣ Clone the repository
+### 1️ Clone the repository
 
 ```bash
 git clone https://github.com/your-username/school-management-api.git
@@ -54,7 +54,7 @@ cd school-management-api
 
 ---
 
-### 2️⃣ Install dependencies
+### 2️ Install dependencies
 
 ```bash
 npm install
@@ -62,7 +62,7 @@ npm install
 
 ---
 
-### 3️⃣ Setup environment variables
+### 3️ Setup environment variables
 
 Create a `.env` file:
 
@@ -76,7 +76,7 @@ DB_NAME=school_db
 
 ---
 
-### 4️⃣ Setup MySQL Database
+### 4️ Setup MySQL Database
 
 Run the following SQL:
 
@@ -96,7 +96,7 @@ CREATE TABLE schools (
 
 ---
 
-### 5️⃣ Run the server
+###  Run the server
 
 ```bash
 npm run dev
@@ -110,7 +110,7 @@ http://localhost:5000
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ---
 
@@ -176,21 +176,21 @@ The API uses the **Haversine formula** to calculate the distance between two geo
 
 ### ➕ Add School API
 
-*Add screenshot here*
+![Add School](assets/Add-School.png)
 
 ### 📍 List Schools API
 
-*Add screenshot here*
+![List School](assets/ListSchool.png)
 
 ---
 
-## 📦 Postman Collection
+##  Postman Collection
 
 Import the provided Postman collection file to test APIs easily.
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * Pagination support
 * SQL-based distance optimization
@@ -199,7 +199,7 @@ Import the provided Postman collection file to test APIs easily.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 Akshita Syal
 
