@@ -176,11 +176,11 @@ The API uses the **Haversine formula** to calculate the distance between two geo
 
 ### ➕ Add School API
 
-![Add School](assets/AddSchool.png)
+![Add School](assests/AddSchool.png)
 
 ### 📍 List Schools API
 
-![List School](assets/ListSchools.png)
+![List School](assests/ListSchools.png)
 
 ---
 
